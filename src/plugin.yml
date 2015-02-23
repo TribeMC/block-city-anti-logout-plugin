@@ -1,0 +1,9 @@
+name: AntiLogg
+version: 1.0
+main: antilogg.Main
+author: V3lop5
+commands:
+  al:
+  antilogg:
+  tl:
+  timeleft:

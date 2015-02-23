@@ -1,0 +1,30 @@
+Nachrichten:
+  Prefix: '&8&l[&eAnti&6LOGG&8&l] '
+  Color: '&7'
+  DamageOther: 'Du hast &c%TARGET %rangegriffen! Logge dich &cnicht %raus!'
+  DamageRecive: 'Du wurdest von &c%DAMAGER %rangegriffen! Logge dich &cnicht %raus!'
+  Logged: 'Du hast dich im Kampf ausgeloggt! Dein Inventar wurde gedroppt!'
+  Brodcast: 'Der Spieler &c%TARGET %rhat sich im Kampf ausgeloggt!'
+  InFight: 'Du bist für weitere %TIME Sekunden im Kampf!'
+  NotInFight: 'Du bist nicht im Kampf!'
+  OutOfFight: 'Du bist nun nichtmehr im Kampf!'
+  DeniedInFight: 'Du kannst dies &cnicht %rim Kampf machen!'
+  NoPerm: 'Dazu hast du &ckeine %rRechte!'
+  PlayerNotInFight: 'Dieser Spieler ist nicht im Kampf!'
+  ChangeTrue: 'Der Spieler ist nun nichtmehr im Kampf!'
+  NoPlayer: 'Dies ist kein Spieler!'
+  HelpHeader: 'Hilfe zu dem Plugin:'
+  HelpTimeLeft: '&e/tl %r- Zeigt die &averbleibende %rZeit im Kampf an!'
+  HelpReset: '&e/al reset <Player> %r- Entfernt den Spieler aus dem Kampf!'
+InFightSeconds: 30
+Events:
+  BypassCommands:
+   - tl
+   - timeleft
+   - al
+   - antilogg
+   - ban
+   - kick
+  BypassKicks:
+    - Timed out
+    - Spam
